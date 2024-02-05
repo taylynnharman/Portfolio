@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+    :root {
+        --main-color: #014742;
+        --nav-color: #3c3c39;
+        --text-color: white;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 6rem;
+    }
+
+    .navigation a:hover {
+        color: #014742;
+    }
+
+    .navigation li:hover {
+        background: white;
+        color: #014742;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    main {
+        margin-top: 7rem;
+        padding-inline: 150px;
+    }
+
+    .card:hover {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+
+}

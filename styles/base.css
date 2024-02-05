@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root {
+    --main-color: #014742;
+    --secondary-color: #7F3F2B;
+    --nav-color: #3c3c39;
+    --text-color: white;
+}
+
+/*font-family: libre baskerville; and montserrat*/
+body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+main {
+    margin-top: 7rem;
+    padding-inline: 80px;
+}
+
+h1 {
+    font-family: "Cinzel";
+    font-size: 2em;
+    border: solid 1px black;
+    padding: 1.5em 1em;
+    text-align: center;
+    margin-inline: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    background: var(--main-color);
+    color: white;
+    margin-inline: 25%;
+    height: 6rem;
+    position: absolute;
+    top: 8em;
+    width: -webkit-fill-available;
+    z-index: 2;
+    padding-left: 0px;
+}
+
+.navigation {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+nav img {
+    height: auto;
+    width: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    top: 0rem;
+    position: absolute;
+}
+
+
+/* Card styles */
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    text-align: center;
+    background: #f2f2f2;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #161c1c;
+    padding-block: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card h3 {}
+
+.card a {
+    background: var(--main-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15px 87px;
+    text-transform: uppercase;
+}
+
+.card a:hover {
+    color: #fcbf49;
+}
+
+button {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Menu styles */
+
+#menu {
+    background-color: var(--main-color);
+    color: white;
+    padding: 3px 7px 6px;
+    font-size: 2rem;
+    width: 50px;
+    position: absolute;
+    right: 1rem;
+    top: 1.2rem;
+    border-color: white;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "x";
+    color: white;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) and accounted for here */
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}

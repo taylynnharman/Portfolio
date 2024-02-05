@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "projectType": "webdev",
+      "project": [
+        {
+          "name": "Highland City Chamber Mock Up",
+          "url": "https://taylynnharman.github.io/Fall-2023-Chamber/",
+          "language": ["HTML", "JavaScript", "CSS"],
+          "showcase": "HTML, Javascript, CSS",
+          "date": "Fall 2023",
+          "image": "../images/projects/chamber.png"
+        }
+      ]
+    },
+    {
+      "projectType": "webdev",
+      "project": [
+        {
+          "name": "Scoot's",
+          "url": "https://taylynnharman.github.io/scoots",
+          "language": ["HTML", "JavaScript", "CSS"],
+          "showcase": "HTML, Javascript, CSS",
+          "date": "Fall 2023",
+          "image": "../images/projects/scoots.png"
+        }
+      ]
+    },
+
+    {
+      "projectType": "C#",
+      "project": [
+        {
+          "name": "DataStructures Tutorial",
+          "url": "https://taylynnharman.github.io/datastructures-tutorial/datastructures-tutorial/Welcome.html",
+          "language": ["C#"],
+          "showcase": "C#",
+          "date": "Fall 2023",
+          "image": "../images/projects/data.png"
+        }
+      ]
+    },
+    {
+      "projectType": "JavaScript",
+      "project": [
+        {
+          "name": "Hangman",
+          "url": "https://taylynnharman.github.io/Hangman/",
+          "language": ["Javascript", "HTML", "CSS"],
+          "showcase": "Javascript",
+          "date": "January 2024",
+          "image": "../images/projects/hangman.png"
+        }
+      ]
+    },
+    {
+      "projectType": "webdev",
+      "project": [
+        {
+          "name": "Rafting Co.",
+          "url": "https://taylynnharman.github.io/Rafting-Co./",
+          "language": ["HTML", "JavaScript", "CSS"],
+          "showcase": "HTML, Javascript, CSS",
+          "date": "Fall 2022",
+          "image": "../images/projects/rafting.png"
+        }
+      ]
+    }
+  ]
+}
