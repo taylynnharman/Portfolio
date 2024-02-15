@@ -1,0 +1,3 @@
+# Custom headers for CORS
+/*
+  Access-Control-Allow-Origin: *
