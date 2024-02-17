@@ -23,7 +23,7 @@ function createProjectCard(project) {
 
   //   // Create a thumbnail preview of project
   const image = document.createElement("img");
-  image.src = project.image;
+  image.src = "/Portfolio/" + project.image;
   image.alt = project.name;
   image.loading = "lazy";
   image.width = 100;
