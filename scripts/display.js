@@ -1,6 +1,6 @@
 // webpage =
 
-const url = ".\data/projects.json";
+const url = "./data/projects.json";
 const container = document.querySelector("#projects");
 
 // retrieve data from json file
