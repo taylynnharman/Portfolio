@@ -43,7 +43,7 @@ function createProjectCard(project) {
 
   // Create Button to go to Project
   const button = document.createElement("a");
-  button.textContent = "View";
+  button.textContent = "VIEW";
   button.href = project.url;
   button.target = "_blank";
   projectCard.appendChild(title);
