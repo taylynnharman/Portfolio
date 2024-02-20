@@ -20,10 +20,13 @@ getData();
 function createProjectCard(project) {
   const projectCard = document.createElement("div");
   projectCard.classList.add("card");
+  console.log("Image",project.images)
 
-  //   // Create a thumbnail preview of project
+  // Create a thumbnail preview of project
   const image = document.createElement("img");
+
   image.src = "./images/" + project.image;
+
   image.alt = project.name;
   image.loading = "lazy";
   image.width = 100;
