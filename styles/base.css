@@ -17,7 +17,7 @@ body {
 
 main {
     margin-top: 7rem;
-    padding-inline: 80px;
+    padding-inline: 1rem;
 }
 
 h1 {
@@ -37,7 +37,7 @@ nav {
     margin-inline: 25%;
     height: 6rem;
     position: absolute;
-    top: 8em;
+    top: 10em;
     width: -webkit-fill-available;
     z-index: 2;
     padding-left: 0px;
@@ -56,6 +56,10 @@ nav img {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--main-color);
 }
 
 .hero img {
@@ -101,7 +105,8 @@ nav a {
 }
 
 .card a:hover {
-    color: #fcbf49;
+    color: var(--main-color);
+    background: #f2f2f2;
 }
 
 button {

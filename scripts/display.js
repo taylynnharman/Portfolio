@@ -24,7 +24,9 @@ function createProjectCard(project) {
 
   // Create a thumbnail preview of project
   const image = document.createElement("img");
-image.src = "./images/" + project.image;
+
+  image.src = "./images/" + project.image;
+
   image.alt = project.name;
   image.loading = "lazy";
   image.width = 100;
@@ -46,7 +48,6 @@ image.src = "./images/" + project.image;
   const button = document.createElement("a");
   button.textContent = "View";
   button.href = project.url;
-  console.log("URL", button.href);
   button.target = "_blank";
   projectCard.appendChild(title);
   projectCard.appendChild(language);
@@ -57,7 +58,6 @@ image.src = "./images/" + project.image;
   return projectCard;
 }
 function displayProjects(projectTypes) {
-  console.log("Data", projectTypes);
   container.innerHTML = "";
 
   projectTypes.forEach((projectType) => {
