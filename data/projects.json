@@ -26,6 +26,19 @@
         }
       ]
     },
+        {
+      "projectType": "webdev",
+      "project": [
+        {
+          "name": "Learning Activities",
+          "url": "https://taylynnharman.github.io/wdd230/",
+          "language": ["HTML", "JavaScript", "CSS"],
+          "showcase": "HTML, Javascript, CSS, API",
+          "date": "Fall 2023",
+          "image": "../images/projects/scoots.png"
+        }
+      ]
+    },
 
     {
       "projectType": "C#",
